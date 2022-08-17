@@ -1,2 +1,2 @@
 # Hello
-::: app.py
+::: app
