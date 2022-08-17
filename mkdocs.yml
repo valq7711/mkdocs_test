@@ -7,7 +7,8 @@ plugins:
         python:
           #rendering:
           options:
-            show_if_no_docstring: False
+            show_if_no_docstring: True
+            show_submodules: True
             filters: null
 
 nav:
