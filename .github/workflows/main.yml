@@ -22,6 +22,7 @@ jobs:
           export PYTHONPATH="$GITHUB_WORKSPACE"
           echo $PYTHONPATH
           ls $PYTHONPATH
+          python -m pip freeze
           mkdocs build
 
       - name: Deploy 🚀
