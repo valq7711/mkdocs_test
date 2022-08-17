@@ -20,6 +20,8 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install mkdocstrings[python]
           export PYTHONPATH="$GITHUB_WORKSPACE"
+          echo $PYTHONPATH
+          ls $PYTHONPATH
           mkdocs build
 
       - name: Deploy 🚀
