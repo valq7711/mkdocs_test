@@ -20,6 +20,7 @@ jobs:
           python -m pip install mkdocs-material
           python -m pip install griffe==0.20.0
           python -m pip install importlib-metadata==4.11.4
+          python -m pip install mkdocstrings
           python -m pip install mkdocstrings[python]
           #export PYTHONPATH="$GITHUB_WORKSPACE"
           set PYTHONPATH=%GITHUB_WORKSPACE%
