@@ -1,0 +1,13 @@
+site_name: Demo
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          rendering:
+            show_if_no_docstring: True
+            filters: null
+
+nav:
+  - Home: index.md
