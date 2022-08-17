@@ -2,9 +2,9 @@ class Foo:
     def __init__(self):
         pass
 
-    def public(self):
-        """This is public"""
+    def bar(self):
+        """This is bar"""
         pass    
     
-    def __private__(self):
+    def baz(self):
         pass    
