@@ -5,7 +5,8 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          rendering:
+          #rendering:
+          options:
             show_if_no_docstring: True
             filters: null
 
