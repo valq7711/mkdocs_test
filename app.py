@@ -3,8 +3,8 @@ class Foo:
         pass
 
     def bar(self):
-        """This is bar"""
         pass    
     
     def baz(self):
+        """This is baz"""
         pass    
